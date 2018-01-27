@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Getting started example",
+  "description": "This extension allows the user to pay for things after verifying their identity with their face.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.jpg",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
