@@ -1,12 +1,18 @@
 {
   "manifest_version": 2,
 
-  "name": "Getting started example",
+  "name": "facepay dood",
   "description": "This extension allows the user to pay for things after verifying their identity with their face.",
   "version": "1.0",
 
+  "icons": { "19": "icon.png",
+          "128": "icon128.png" },
+
   "browser_action": {
-    "default_icon": "icon.png",
+    "default_icon": {
+      "19": "icon.png",
+      "128": "icon128.png"
+    },
     "default_popup": "popup.html"
   },
   "permissions": [

@@ -106,6 +106,7 @@ function saveBackgroundColor(url, color) {
 document.addEventListener('DOMContentLoaded', () => {
   getCurrentTabUrl((url) => {
     var dropdown = document.getElementById('dropdown');
+    chrome.storage.sync.set({ "yourBody": "myBody" });
 
     // Load the saved background color for this page and modify the dropdown
     // value, if needed.
